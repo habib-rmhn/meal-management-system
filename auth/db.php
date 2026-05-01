@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-    $dbUsername = "eidhl_meal_user_7A";
-    $dbPassword = "a11ILDiya22C1wO+EIDHL.User@247";
-    $dbname = "eidhl_meal";
+    $dbUsername = "root";
+    $dbPassword = "";
+    $dbname = "meal_management";
     //Create a connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
 
